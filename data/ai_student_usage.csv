@@ -1,0 +1,31 @@
+Student_ID,Department,Year,AI_Tool,AI_Purpose,Usage_Frequency,Hours_Per_Week,Academic_Usage,Productivity_Before,Productivity_After,Time_Saved_Hours,Academic_Performance,AI_Dependence,Accuracy_Trust,Problems_Faced,Overall_Opinion
+1,IT,3,ChatGPT,Coding,Daily,10,High,3,5,6,4,Medium,4,Incorrect Information,Very Positive
+2,CS,2,Gemini,Study,Daily,7,High,3,4,4,4,Low,4,None,Positive
+3,ENTC,4,ChatGPT,Assignment,Several times a week,6,High,3,4,3,3,Medium,3,Over Dependence,Positive
+4,IT,2,GitHub Copilot,Coding,Daily,12,High,3,5,7,5,Medium,5,None,Very Positive
+5,CS,3,Claude,Research,Weekly,4,Medium,3,4,2,4,Low,4,None,Positive
+6,MECH,4,ChatGPT,Study,Daily,9,High,2,4,5,3,High,3,Over Dependence,Positive
+7,IT,3,Perplexity,Research,Several times a week,5,High,3,4,3,4,Low,5,None,Very Positive
+8,CS,2,ChatGPT,Content Creation,Weekly,3,Medium,3,3,1,3,Low,3,Incorrect Information,Neutral
+9,ENTC,3,Gemini,Presentation,Several times a week,5,High,2,4,3,4,Medium,4,None,Positive
+10,IT,4,ChatGPT,Coding,Daily,14,High,3,5,8,5,High,4,Over Dependence,Very Positive
+11,CS,3,GitHub Copilot,Coding,Daily,11,High,3,5,6,5,Medium,5,None,Very Positive
+12,MECH,2,Gemini,Study,Weekly,4,High,2,3,2,3,Low,3,Incorrect Information,Positive
+13,IT,3,Claude,Research,Several times a week,6,High,3,4,4,4,Medium,4,None,Positive
+14,ENTC,4,ChatGPT,Assignment,Daily,8,High,3,5,5,4,High,3,Over Dependence,Positive
+15,CS,2,Perplexity,Research,Weekly,3,Medium,3,4,2,3,Low,5,None,Positive
+16,IT,4,ChatGPT,Study,Daily,10,High,3,5,6,5,Medium,4,None,Very Positive
+17,MECH,3,Gemini,Assignment,Several times a week,6,High,2,4,3,3,Medium,3,Incorrect Information,Positive
+18,CS,4,Claude,Coding,Daily,9,High,3,5,5,5,Medium,4,None,Very Positive
+19,ENTC,2,ChatGPT,Study,Weekly,4,High,3,4,2,4,Low,4,None,Positive
+20,IT,3,GitHub Copilot,Coding,Daily,13,High,3,5,7,5,High,5,Over Dependence,Very Positive
+21,CS,3,ChatGPT,Research,Several times a week,7,High,3,4,4,4,Medium,4,None,Positive
+22,MECH,4,Perplexity,Research,Weekly,3,Medium,2,3,1,3,Low,5,None,Neutral
+23,IT,2,Gemini,Presentation,Several times a week,5,High,3,4,3,4,Low,4,None,Positive
+24,ENTC,3,ChatGPT,Coding,Daily,11,High,2,5,6,4,High,3,Over Dependence,Very Positive
+25,CS,4,GitHub Copilot,Coding,Daily,12,High,3,5,7,5,Medium,5,None,Very Positive
+26,IT,3,Claude,Study,Weekly,4,High,3,4,2,4,Low,4,None,Positive
+27,MECH,2,ChatGPT,Assignment,Several times a week,6,High,2,4,4,3,Medium,3,Incorrect Information,Positive
+28,CS,3,Gemini,Study,Daily,8,High,3,4,5,4,Medium,4,None,Positive
+29,ENTC,4,Perplexity,Research,Several times a week,5,High,3,4,3,4,Low,5,None,Positive
+30,IT,2,ChatGPT,Coding,Daily,15,High,3,5,8,5,High,4,Over Dependence,Very Positive
