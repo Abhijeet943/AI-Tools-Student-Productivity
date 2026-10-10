@@ -1,0 +1,148 @@
+# Kanban Board – AI Tools Usage & Student Productivity Analyzer
+
+## 1. Project Overview
+
+The Kanban Board is used to plan, organize, track, and manage the development of the **AI Tools Usage & Student Productivity Analyzer** project. It follows the principles of Agile project management by dividing the project into smaller tasks and tracking their progress visually.
+
+The project analyzes student survey data to understand AI tool usage and its relationship with student productivity and academic performance. The dashboard is developed using Python, Pandas, and Streamlit.
+
+## 2. Objectives
+
+- Organize project tasks systematically.
+- Track the progress of development and testing.
+- Identify pending tasks and potential issues.
+- Improve task visibility and workflow management.
+- Maintain project documentation.
+- Track continuous integration activities using GitHub Actions.
+
+## 3. Tools and Technologies
+
+| Tool / Technology | Purpose |
+|---|---|
+| GitHub Projects | Kanban board and task management |
+| Git | Version control |
+| GitHub | Source code hosting and collaboration |
+| Python | Application development |
+| Pandas | Dataset processing |
+| Streamlit | Interactive dashboard |
+| GitHub Actions | Continuous integration (CI) |
+| Markdown | Project documentation |
+
+## 4. Kanban Board Structure
+
+The board contains four columns:
+
+### Backlog
+Contains tasks that are planned but have not yet been started.
+
+Examples:
+- Add future dashboard improvements.
+- Improve project documentation.
+- Plan additional data analysis features.
+
+### In Progress
+Contains tasks that are currently being developed or implemented.
+
+Examples:
+- Implement dashboard functionality.
+- Update data analysis features.
+- Configure project automation.
+
+### In Review
+Contains tasks that have been completed initially and require checking before approval.
+
+Examples:
+- Review Python code.
+- Check dashboard output.
+- Verify dataset processing.
+- Review README documentation.
+
+### Done
+Contains tasks that have been completed and verified.
+
+Examples:
+- Create the project structure.
+- Prepare the dataset.
+- Develop the Streamlit dashboard.
+- Configure and verify the GitHub Actions workflow.
+
+## 5. Tasks and Cards
+
+The following cards represent the main activities of the project:
+
+| Task Card | Description |
+|---|---|
+| Project Setup | Create the project directory and configure the Python environment. |
+| Dataset Preparation | Load and prepare the student survey dataset. |
+| Data Validation & Cleaning | Check data quality, missing values, and data types. |
+| Dashboard Development | Build the Streamlit dashboard. |
+| Visualization & Analysis | Display insights about AI tool usage and student productivity. |
+| Dashboard Testing | Test filters, charts, and dashboard functionality. |
+| Testing & Validation | Verify the application's output and behavior. |
+| Final Bug Fixing & Documentation | Resolve issues and update project documentation. |
+| Set Up CI with GitHub Actions | Automate basic code validation on pushes and pull requests. |
+
+Each task card can be moved between the four columns as its status changes.
+
+## 6. Testing and Validation
+
+Testing ensures that the dashboard behaves as expected.
+
+The testing activities include:
+
+- Checking whether the dataset loads correctly.
+- Verifying department and academic year filters.
+- Checking charts and visualizations.
+- Validating displayed values and analytical results.
+- Testing behavior when filters return no records.
+- Checking for Python syntax errors.
+- Fixing identified bugs before final review.
+
+## 7. CI/CD Using GitHub Actions
+
+GitHub Actions is used to automate basic code validation.
+
+The CI workflow is configured in:
+
+`.github/workflows/python-app.yml`
+
+The workflow can run when code is pushed to the main branch or when a pull request targets it.
+
+Typical steps include:
+
+1. Check out the repository.
+2. Set up Python 3.10.
+3. Install dependencies from `requirements.txt`.
+4. Compile Python files to check for syntax errors.
+5. Display the workflow result in the GitHub Actions tab.
+
+**Note:** This workflow performs basic continuous integration checks. It does not automatically deploy the Streamlit application unless a deployment step is configured separately.
+
+## 8. Agile Methodology
+
+Agile is an iterative approach to software development in which work is completed in small, manageable tasks.
+
+The Kanban board supports Agile practices by providing:
+
+- **Visualization:** Shows tasks and their current status.
+- **Workflow management:** Tracks tasks from planning to completion.
+- **Continuous improvement:** Helps identify bugs and improve the application.
+- **Transparency:** Makes project progress easy to understand.
+- **Flexibility:** Allows tasks to be reprioritized when requirements change.
+
+Unlike Scrum, Kanban does not require fixed-length sprints. Tasks move through the workflow as work progresses.
+
+## 9. Benefits of the Kanban Board
+
+- Improves task organization and visibility.
+- Helps track development and testing activities.
+- Makes pending work easy to identify.
+- Supports collaboration and accountability.
+- Connects project management with GitHub development workflows.
+- Encourages continuous testing and improvement.
+
+## 10. Conclusion
+
+The Kanban board provides a simple and effective way to manage the development of the AI Tools Usage & Student Productivity Analyzer. By organizing tasks into Backlog, In Progress, In Review, and Done, the project workflow becomes easier to monitor and maintain.
+
+Combining GitHub Projects with
